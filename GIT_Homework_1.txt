@@ -1,0 +1,311 @@
+JSON
+
+ 4. Создать внешний репозиторий c названием JSON.
+ 5. Клонировать репозиторий JSON на локальный компьютер. 
+- git clone https://github.com/TatyanaBartashevich/JSON.git
+ 6. Внутри локального JSON создать файл “new.json”. 
+- touch new.json
+ 7. Добавить файл под гит. 
+- git add new.json
+ 8. Закоммитить файл. 
+- git commit -m "New file added"
+ 9. Отправить файл на внешний GitHub репозиторий. 
+- git push
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON. 
+- vim new.json
+
+{
+        "name": "Tanya",
+        "surname": "Bartashevich",
+        "age": 32,
+        "namber_of_pets": 1,
+        "desired_salary_in_the_future":"1000 usd"
+}
+
+ 11. Отправить изменения на внешний репозиторий.
+- git commit -am "Added information about me"
+- git push
+ 12. Создать файл preferences.json
+- touch preferences.json
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+- vim preferences.json
+
+{
+	"favorite_movie": "The Martian",
+	"favorite_series": "The Big Bang Theory",
+	"favorite_food": "Paella",
+	"favorite_season": "Spring",
+	"country_would_like_to_visit": "Norway"
+}
+
+ 14. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+- vim skills.json
+
+{
+	"skills_to_be_learned_in_the_course": "33_GROUP",
+	"1": "Basic theory (What is testing, bug reports, documentation, types, 	methods, testing directions, etc.) SDLC, STLC",
+	"2": "What is a client-server architecture",
+	"3": "HTTP Methods of requests to the server",
+	"4": "HTTP server response codes",
+	"5": "Structures of HTTP requests and responses",
+	"6": "What is JSON,XML.Their structure",
+	"7": "API testing via Postman(JS, API autotests)",
+	"8": "Removing and reading logs from an external server",
+	"9": "Sniffing http web traffic via Charles and Fiddler",
+	"10": "Dev Tools of web browsers(Google Chrome, FireFox)",
+	"11": "VPN.(How it works, why you need it, how to use it, tool options)",
+	"12": "Mobile testing",
+	"13": "Feature iOS,Android,guidelines",
+	"14": "Building iOS applications on XCode.(Those who do not have a Mac 	computer, 	just look)",
+	"15": "Building Android applications on Android Studio",
+	"16": "ADB(android device management)",
+	"17": "Setting up proxy and vpn on iOS and Android ",
+	"18": "Interception(sniffing) of mobile traffic via Charles and Fiddler on iOS 	and 	Android",
+	"19": "Command line(terminal) Linux(copying, creating, viewing, moving files 	on servers without a graphical interface)",
+	"20": "Basics of bash scripting,automation of routine tasks on the server",
+	"21": "Access to remote servers",
+	"22": "SQL basics(Create, Delete, Drop, Insert Into, Select, From, Where, 	Join)",
+	"23": "Postgres database(installation, configuration and use)",
+	"24": "Non - relational database Redis(installation, configuration and use)",
+	"25": "Load testing in Jmeter",
+	"26": "Scrum development methodology",
+	"27": "Python.(Learning the basics.Creating a client - server application)"
+}
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+- git add preferences.json
+- git commit -m "Added information about my preferences"
+- git add skills.json
+- git commit -m "Added information about the skills that will be studied on the course"
+- git push
+16. На веб интерфейсе создать файл bug_report.json.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе. 
+Commit  “Added a new bag report”
+18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+
+{"Bug_reports": 
+                {"ID": "12",
+                 "Title": "On the main page, when you click on the logo, the page does not update",
+                 "Description": {"Step1": "Go to ozol.com website",
+				"Step2": "Click on the page logo"},
+                "Expected result": "Websire is updating",
+                 "Actual result": "Website is not updating",
+                 "Version": "iOS 16.1.1",
+                 "Severity": "S3 Major",
+                 "Priority": "P2 Medium",
+                 "Status": "New",
+                 "Author": "Tatyana Bartashevich",
+                 "Assigned To": "Ilya Ivanov"
+                 }                   
+} 
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit "Change_bug_report”
+ 20. Синхронизировать внешний и локальный репозиторий JSON
+- git pull
+
+====================================================================================================================================================================
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+ 22. Клонировать репозиторий XML на локальный компьютер.
+- git clone https://github.com/TatyanaBartashevich/XML.git
+ 23. Внутри локального XML создать файл “new.xml”.
+- touch new.xml
+ 24. Добавить файл под гит.
+- git add new.xml
+ 25. Закоммитить файл.
+- git commit -m "New file added"
+ 26. Отправить файл на внешний GitHub репозиторий.
+- git push
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+- vim new.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+    <name>Tanya</name> 
+    <surname>Bartashevich</surname>
+    <age>32</age>
+    <namber_of_pets>1</namber_of_pets>
+    <desired_salary_in_the_future>1000 usd</desired_salary_in_the_future>
+</main>
+
+28. Отправить изменения на внешний репозиторий.
+- git commit -am "Added information about me"
+- git push
+ 29. Создать файл preferences.xml
+- touch preferences.xml
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+- vim preferences.xml
+
+<?xml version="1.0" encoding="windows-1251"?>
+<preferences>
+	<favorite_movie>The Martian</favorite_movie>
+	<favorite_series>The Big Bang Theory</favorite_series>
+	<favorite_food>Paella</favorite_food>
+	<favorite_season>Spring</favorite_season>
+	<country_would_like_to_visit>Norway</country_would_like_to_visit>
+</preferences>
+
+31. Создать файл skills.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+- vim skills.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<skills_to_be_learned_in_the_course>
+        <skill1>Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC</skill1>
+        <skill2>What is a client-server architecture</skill2>
+        <skill3>HTTP Methods of requests to the server</skill3>
+        <skill4>HTTP server response codes</skill4>
+        <skill5>Structures of HTTP requests and responses</skill5>
+        <skill6>What is JSON,XML.Their structure</skill6>
+        <skill7>API testing via Postman(JS, API autotests)</skill7>
+        <skill8>Removing and reading logs from an external server</skill8>
+        <skill9>Sniffing http web traffic via Charles and Fiddler</skill9>
+        <skill10>Dev Tools of web browsers(Google Chrome, FireFox)</skill10>
+        <skill11>VPN.(How it works, why you need it, how to use it, tool options)</skill11>
+        <skill12>Mobile testing</skill12>
+        <skill13>Feature iOS,Android,guidelines</skill13>
+        <skill14>Building iOS applications on XCode.(Those who do not have a Mac computer, just look)</skill14>
+        <skill15>Building Android applications on Android Studio</skill15>
+        <skill16>ADB(android device management)</skill16>
+        <skill17>Setting up proxy and vpn on iOS and Android</skill17>
+        <skill18>Interception(sniffing) of mobile traffic via Charles and Fiddler on iOS and Android</skill18>
+        <skill19>Command line(terminal) Linux(copying, creating, viewing, moving files 	on servers without a graphical interface)</skill19>
+        <skill20>Basics of bash scripting,automation of routine tasks on the 	server</skill20>
+        <skill21>Access to remote servers</skill21>
+        <skill22>SQL basics(Create, Delete, Drop, Insert Into, Select, From, Where, Join)</skill22>
+        <skill23>Postgres database(installation, configuration and use)</skill23>
+        <skill24>Non - relational database Redis(installation, configuration and use)</skill24>
+        <skill25>Load testing in Jmeter</skill25>
+        <skill26>Scrum development methodology</skill26>
+        <skill27>Python.(Learning the basics.Creating a client - server application)</skill27>
+</skills_to_be_learned_in_the_course>
+
+ 32. Сделать коммит в одну строку.
+- git add .
+- git commit -m "Add information about my preferences and skills"
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+- git push
+34. На веб интерфейсе создать файл bug_report.xml.
+35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit "Added a new bag report”"
+36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+Commit "Update bug_report"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Bug_reports>
+            <ID>012"</ID>
+            <Title>On the main page, when you click on the logo, the page does not refresh</Title>
+            <Description>Step1:Go to ozol.com website</Description> 
+            <Description>Step2:Click on the page logo</Description>
+            <Expected_result>Websire is updating</Expected_result>
+            <Actual_result>Website is not updating</Actual_result>
+            <Version>iOS 16.1.1</Version>
+            <Severity>S3 Major</Severity>
+            <Priority>P2 Medium</Priority>
+            <Status>New</Status>
+            <Author>Tatyana Bartashevich</Author>
+            <Assigned_To>Ilya Ivanov</Assigned_To>                 
+</Bug_reports>
+
+37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit "Change_bug_report"
+38. Синхронизировать внешний и локальный репозиторий XML
+- git pull
+====================================================================================================================================================================
+TXT
+1. Создать внешний репозиторий c названием TXT.
+2. Клонировать репозиторий TXT на локальный компьютер.
+- git clone https://github.com/TatyanaBartashevich/TXT.git
+ 3. Внутри локального TXT создать файл “new.txt”.
+- touch new.txt
+4. Добавить файл под гит.
+- git add new.txt
+5. Закоммитить файл.
+- git commit -m "New file added"
+6. Отправить файл на внешний GitHub репозиторий.
+- git push
+7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
+- vim new.txt
+
+name - Tanya
+surname - Bartashevich
+age - 32
+namber_of_pets - 1
+desired_salary_in_the_future - 1000 usd
+
+8. Отправить изменения на внешний репозиторий.
+- git commit -am "Added information about me"
+- git push
+9. Создать файл preferences.txt
+- touch preferences.txt
+10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
+- vim preferences.txt
+
+favorite_movie - The Martian
+favorite_series - The Big Bang Theory
+favorite_food - Paella
+favorite_season - Spring
+country_would_like_to_visit - Norway
+
+11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
+- vim skills.txt
+
+skills_to_be_learned_in_the_course - 33_GROUP
+1-Basic theory (What is testing, bug reports, documentation, types, methods, testing directions, etc.) SDLC, STLC
+2-What is a client-server architecture
+3-HTTP Methods of requests to the server
+4-HTTP server response codes
+5-Structures of HTTP requests and responses
+6-What is JSON,XML.Their structure
+7-API testing via Postman(JS, API autotests)
+8-Removing and reading logs from an external server
+9-Sniffing http web traffic via Charles and Fiddler
+10-Dev Tools of web browsers(Google Chrome, FireFox)
+11-VPN.(How it works, why you need it, how to use it, tool options)
+12-Mobile testing
+13-Feature iOS,Android,guidelines
+14-Building iOS applications on XCode.(Those who do not have a Mac computer, just look)
+15-Building Android applications on Android Studio
+16-ADB(android device management)
+17-Setting up proxy and vpn on iOS and Android 
+18-Interception(sniffing) of mobile traffic via Charles and Fiddler on iOS and Android
+19-Command line(terminal) Linux(copying, creating, viewing, moving files on servers without a graphical interface)
+20-Basics of bash scripting,automation of routine tasks on the server
+21-Access to remote servers
+22-SQL basics(Create, Delete, Drop, Insert Into, Select, From, Where, Join)
+23-Postgres database(installation, configuration and use)
+24-Non - relational database Redis(installation, configuration and use)
+25-Load testing in Jmeter
+26-Scrum development methodology
+27-Python.(Learning the basics.Creating a client - server application)
+
+12. Сделать коммит в одну строку.
+- git add .
+- git commit -m "Add information about my preferences and skills"
+13. Отправить сразу 2 файла на внешний репозиторий.
+- git push
+14. На веб интерфейсе создать файл bug_report.txt.
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit  “Added new bug report”
+16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
+Commit “Bug report created”
+
+Bug_reports: 
+                ID: 12
+Title: On the main page, when you click on the logo,   the page does not update
+                Description:	Step1: Go to ozol.com website
+				Step2: Click on the page logo
+                Expected result: Websire is updating
+                Actual result: Website is not updating
+                Version: iOS 16.1.1
+                Severity: S3 Major
+                Priority: P2 Medium
+                Status: New
+                Author: Tatyana Bartashevich
+                Assigned To: Ilya Ivanov
+
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit “Change bug report”
+18. Синхронизировать внешний и локальный репозиторий TXT
+- git pull
